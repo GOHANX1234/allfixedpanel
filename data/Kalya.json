@@ -1,0 +1,27 @@
+{
+  "resellerId": 2,
+  "username": "Kalya",
+  "keys": [
+    {
+      "keyString": "Lodit",
+      "game": "PUBG MOBILE",
+      "resellerId": 2,
+      "expiryDate": "2025-05-23T10:17:46.431Z",
+      "deviceLimit": 1,
+      "id": 3,
+      "createdAt": "2025-04-23T10:17:46.947Z",
+      "isRevoked": false
+    },
+    {
+      "keyString": "Lodit",
+      "game": "PUBG MOBILE",
+      "resellerId": 2,
+      "expiryDate": "2025-05-23T10:17:46.431Z",
+      "deviceLimit": 1,
+      "id": 3,
+      "createdAt": "2025-04-23T10:17:46.947Z",
+      "isRevoked": false
+    }
+  ],
+  "credits": 2
+}
