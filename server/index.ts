@@ -17,7 +17,7 @@ const isProduction = process.env.NODE_ENV === "production";
 
 // Define origins for CORS
 const corsOrigin = isProduction
-  ? [process.env.CORS_ORIGIN || "https://fixpanel.onrender.com/"] // Allow configurable origin in production
+  ? [process.env.CORS_ORIGIN || "https://allfixedpanel.onrender.com/"] // Allow configurable origin in production
   : true; // Allow all origins in development
 
 // Apply CORS middleware with special handling for admin endpoints
@@ -27,7 +27,7 @@ app.use((req, res, next) => {
     // For admin endpoints, only allow same-origin requests in production
     // In development, allow localhost origins only
     const allowedAdminOrigin = isProduction 
-      ? (process.env.CORS_ORIGIN || "https://fixedp.onrender.com/").replace(/\/$/, '')
+      ? (process.env.CORS_ORIGIN || "https://allfixedpanel.onrender.com/").replace(/\/$/, '')
       : `${req.protocol}://${req.get('host')}`;
     
     cors({
